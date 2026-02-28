@@ -1,0 +1,60 @@
+name: Deploy to GitHub Pages
+
+on:
+  push:
+    branches: [ main ]
+  workflow_dispatch:
+
+permissions:
+  contents: write
+
+jobs:
+  deploy:
+    runs-on: ubuntu-latest
+
+    steps:
+    - uses: actions/checkout@v4
+
+    - name: Setup .NET
+      uses: actions/setup-dotnet@v4
+      with:
+        dotnet-version: 10.0.x
+
+    - name: Setup Node.js
+      uses: actions/setup-node@v4
+      with:
+        node-version: 20
+
+    - name: Install Tailwind
+      working-directory: YayogApp/src/YayogApp
+      run: npm install
+
+    - name: Build CSS
+      working-directory: YayogApp/src/YayogApp
+      run: |
+        npm run build:css
+        # Copy to client wwwroot for publish
+        mkdir -p ../YayogApp.Client/wwwroot
+        cp wwwroot/app.css ../YayogApp.Client/wwwroot/app.css
+
+    - name: Publish app
+      run: dotnet publish YayogApp/src/YayogApp.Client/YayogApp.Client.csproj -c Release -o release
+
+    - name: Fix base href
+      run: |
+        # Change base href to match repo name for GitHub Pages
+        # Get repository name
+        REPO_NAME=$(echo "${{ github.repository }}" | cut -d'/' -f2)
+        sed -i "s|<base href=\"/\" />|<base href=\"/$REPO_NAME/\" />|g" release/wwwroot/index.html
+
+    - name: Copy index.html to 404.html
+      run: cp release/wwwroot/index.html release/wwwroot/404.html
+
+    - name: Add .nojekyll
+      run: touch release/wwwroot/.nojekyll
+
+    - name: Deploy to GitHub Pages
+      uses: JamesIves/github-pages-deploy-action@v4
+      with:
+        folder: release/wwwroot
+        branch: gh-pages

@@ -1,0 +1,86 @@
+@page "/exercise-picker"
+@using YayogApp.Shared.Models
+@using YayogApp.Shared.Services
+@inject IExerciseService ExerciseService
+
+<div class="min-h-screen bg-gray-900 text-white p-4 md:p-8">
+    <div class="max-w-2xl mx-auto">
+        <a href="/" class="text-blue-400 hover:text-blue-300 mb-8 inline-block transition-colors">&larr; Back to Home</a>
+
+        <div class="bg-gray-800 rounded-3xl p-8 shadow-2xl border border-gray-700">
+            <h1 class="text-3xl font-bold mb-8 text-center bg-gradient-to-r from-blue-400 to-emerald-400 bg-clip-text text-transparent">
+                Exercise Picker
+            </h1>
+
+            <div class="grid grid-cols-1 md:grid-cols-2 gap-6 mb-8">
+                <div class="space-y-2">
+                    <label class="block text-sm font-medium text-gray-400 ml-1">Category</label>
+                    <select @bind="selectedCategory" 
+                            class="w-full bg-gray-700 border-none rounded-xl px-4 py-3 text-white focus:ring-2 focus:ring-blue-500 transition-all outline-none">
+                        <option value="">Any Category</option>
+                        <option value="Push">Push</option>
+                        <option value="Pull">Pull</option>
+                        <option value="Legs">Legs</option>
+                        <option value="Core">Core</option>
+                    </select>
+                </div>
+
+                <div class="space-y-2">
+                    <label class="block text-sm font-medium text-gray-400 ml-1">Difficulty (1-9)</label>
+                    <input type="number" @bind="selectedDifficulty" min="1" max="9" 
+                           class="w-full bg-gray-700 border-none rounded-xl px-4 py-3 text-white focus:ring-2 focus:ring-blue-500 transition-all outline-none" />
+                </div>
+            </div>
+
+            <button @onclick="PickRandomExercise" 
+                    class="w-full py-4 bg-gradient-to-r from-blue-600 to-emerald-600 hover:from-blue-500 hover:to-emerald-500 text-white font-bold rounded-xl transition-all transform hover:scale-[1.02] active:scale-[0.98] shadow-lg mb-8">
+                Pick Something!
+            </button>
+
+            @if (selectedExercise != null)
+            {
+                <div class="text-center space-y-4 animate-in fade-in zoom-in duration-300">
+                    <div class="inline-block px-3 py-1 bg-blue-500/20 text-blue-400 rounded-full text-xs font-bold uppercase tracking-wider mb-2">
+                        @selectedExercise.Category
+                    </div>
+                    <h2 class="text-5xl md:text-6xl font-black leading-tight text-white">
+                        @selectedExercise.Name
+                    </h2>
+                    @if (selectedExercise.Variation != selectedExercise.Name)
+                    {
+                        <p class="text-2xl md:text-3xl font-medium text-emerald-400 mt-2">
+                            @selectedExercise.Variation
+                        </p>
+                    }
+                    <div class="pt-4">
+                        <span class="text-gray-500 text-sm">Difficulty: @selectedExercise.Difficulty</span>
+                    </div>
+                </div>
+            }
+        </div>
+    </div>
+</div>
+
+@code {
+    private string selectedCategory = "";
+    private int selectedDifficulty = 1;
+    private Exercise? selectedExercise;
+
+    private async Task PickRandomExercise()
+    {
+        var exercises = await ExerciseService.GetExercisesAsync(
+            string.IsNullOrEmpty(selectedCategory) ? null : selectedCategory,
+            selectedDifficulty
+        );
+
+        if (exercises.Any())
+        {
+            var random = new Random();
+            selectedExercise = exercises.ElementAt(random.Next(exercises.Count()));
+        }
+        else
+        {
+            selectedExercise = null;
+        }
+    }
+}

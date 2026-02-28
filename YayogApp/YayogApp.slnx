@@ -1,0 +1,11 @@
+<Solution>
+  <Folder Name="/src/">
+    <Project Path="src/YayogApp.Client/YayogApp.Client.csproj" />
+    <Project Path="src/YayogApp.Shared/YayogApp.Shared.csproj" />
+    <Project Path="src/YayogApp/YayogApp.csproj" />
+  </Folder>
+  <Folder Name="/tests/">
+    <Project Path="tests/YayogApp.IntegrationTests/YayogApp.IntegrationTests.csproj" />
+    <Project Path="tests/YayogApp.UnitTests/YayogApp.UnitTests.csproj" />
+  </Folder>
+</Solution>
