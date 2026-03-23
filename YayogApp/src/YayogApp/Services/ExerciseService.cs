@@ -7,19 +7,6 @@ namespace YayogApp.Services;
 public class ExerciseService : IExerciseService
 {
     private readonly string _jsonPath;
-    private static readonly Dictionary<int, string> DifficultyMapping = new()
-    {
-        { 1, "Easier" },
-        { 2, "Easy" },
-        { 3, "Semi-Easy" },
-        { 4, "Moderate" },
-        { 5, "Semi-Hard" },
-        { 6, "Hard" },
-        { 7, "Harder" },
-        { 8, "Very Hard" },
-        { 9, "Hardest" }
-    };
-
     public ExerciseService(IWebHostEnvironment env)
     {
         _jsonPath = Path.Combine(env.ContentRootPath, "Data", "yayog.json");
@@ -42,7 +29,7 @@ public class ExerciseService : IExerciseService
             filtered = filtered.Where(e => e.Category.Equals(category, StringComparison.OrdinalIgnoreCase));
         }
 
-        if (difficultyLevel.HasValue && DifficultyMapping.TryGetValue(difficultyLevel.Value, out var difficultyStr))
+        if (difficultyLevel.HasValue && ExerciseDifficulties.Mapping.TryGetValue(difficultyLevel.Value, out var difficultyStr))
         {
             filtered = filtered.Where(e => e.Difficulty.Equals(difficultyStr, StringComparison.OrdinalIgnoreCase));
         }

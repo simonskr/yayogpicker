@@ -23,7 +23,7 @@ public class ExercisePickerTests : PageTest
         await Page.GetByLabel("Category").SelectOptionAsync(new[] { "Push" });
 
         // Set difficulty
-        await Page.GetByLabel("Difficulty (1-9)").FillAsync("4");
+        await Page.Locator("#difficulty").FillAsync("4");
 
         // Click the pick button
         await Page.GetByRole(AriaRole.Button, new() { Name = "Pick Something!" }).ClickAsync();
