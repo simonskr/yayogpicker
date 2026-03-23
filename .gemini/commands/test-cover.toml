@@ -1,0 +1,29 @@
+description = "Runs all tests and ensures test coverage is at least X%."
+prompt = """
+Your goal is to ensure the project has at least {{args}}% test coverage.
+{{args}} is a numeric threshold provided by the user (e.g., 80 for 80%).
+
+1.  **Configure Coverage:** Ensure `coverlet.collector` is configured in the test project `YayogApp/tests/YayogApp.IntegrationTests/YayogApp.IntegrationTests.csproj`.
+    - If not present, add it using `dotnet add YayogApp/tests/YayogApp.IntegrationTests/YayogApp.IntegrationTests.csproj package coverlet.collector`.
+
+2.  **Run Tests:** Execute `dotnet test YayogApp/YayogApp.slnx --collect:"XPlat Code Coverage"`.
+    - Locate the generated `coverage.cobertura.xml` file. It's usually in `YayogApp/tests/YayogApp.IntegrationTests/TestResults/<GUID>/coverage.cobertura.xml`.
+
+3.  **Analyze Results:** Read the `coverage.cobertura.xml` file.
+    - Extract the overall `line-rate` from the `<coverage>` element.
+    - Calculate the current coverage percentage: `line-rate * 100`.
+
+4.  **Check Threshold:** 
+    - If current coverage >= {{args}}, inform the user and stop.
+    - If current coverage < {{args}}, proceed to the next step.
+
+5.  **Iterative Improvement:**
+    - Identify "hot" code paths with low coverage (hits="0"). Look at `YayogApp.Client` and `YayogApp` components.
+    - For a chosen uncovered path:
+        a. Create or update an integration test in `YayogApp/tests/YayogApp.IntegrationTests/` to cover it.
+        b. Re-run `dotnet test ... --collect:"XPlat Code Coverage"`.
+        c. Re-read the coverage report and update the user on the new percentage.
+        d. Repeat until the threshold {{args}} is met or no further improvements are possible.
+
+6.  **Final Summary:** Provide a report of the initial coverage, final coverage, and the tests added.
+"""

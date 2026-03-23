@@ -1,3 +1,4 @@
+using System.Text.Json;
 using YayogApp.Shared.Models;
 using YayogApp.Shared.Services;
 
@@ -5,7 +6,7 @@ namespace YayogApp.Services;
 
 public class ExerciseService : IExerciseService
 {
-    private readonly string _csvPath;
+    private readonly string _jsonPath;
     private static readonly Dictionary<int, string> DifficultyMapping = new()
     {
         { 1, "Easier" },
@@ -21,27 +22,18 @@ public class ExerciseService : IExerciseService
 
     public ExerciseService(IWebHostEnvironment env)
     {
-        _csvPath = Path.Combine(env.ContentRootPath, "Data", "yayog.csv");
+        _jsonPath = Path.Combine(env.ContentRootPath, "Data", "yayog.json");
     }
 
     public async Task<IEnumerable<Exercise>> GetExercisesAsync(string? category = null, int? difficultyLevel = null)
     {
-        if (!File.Exists(_csvPath))
+        if (!File.Exists(_jsonPath))
         {
             return [];
         }
 
-        var lines = await File.ReadAllLinesAsync(_csvPath);
-        var exercises = new List<Exercise>();
-
-        // Skip header
-        foreach (var line in lines.Skip(1))
-        {
-            var parts = ParseCsvLine(line);
-            if (parts.Length < 4) continue;
-
-            exercises.Add(new Exercise(parts[0], parts[1], parts[2], parts[3]));
-        }
+        using var stream = File.OpenRead(_jsonPath);
+        var exercises = await JsonSerializer.DeserializeAsync<List<Exercise>>(stream, new JsonSerializerOptions { PropertyNameCaseInsensitive = true }) ?? new();
 
         var filtered = exercises.AsEnumerable();
 
@@ -56,34 +48,5 @@ public class ExerciseService : IExerciseService
         }
 
         return filtered;
-    }
-
-    private string[] ParseCsvLine(string line)
-    {
-        // Basic CSV parser that handles quotes
-        var result = new List<string>();
-        var current = "";
-        var inQuotes = false;
-
-        for (int i = 0; i < line.Length; i++)
-        {
-            char c = line[i];
-            if (c == '"')
-            {
-                inQuotes = !inQuotes;
-            }
-            else if (c == ',' && !inQuotes)
-            {
-                result.Add(current.Trim('"'));
-                current = "";
-            }
-            else
-            {
-                current += c;
-            }
-        }
-        result.Add(current.Trim('"'));
-
-        return result.ToArray();
     }
 }

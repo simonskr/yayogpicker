@@ -31,8 +31,8 @@ public class StaticExerciseService : IExerciseService
     {
         if (_cachedExercises == null)
         {
-            var csvData = await _httpClient.GetStringAsync("data/yayog.csv");
-            _cachedExercises = ParseCsv(csvData);
+            // GitHub Pages hosting: use the static JSON file
+            _cachedExercises = await _httpClient.GetFromJsonAsync<IEnumerable<Exercise>>("data/yayog.json") ?? [];
         }
 
         var filtered = _cachedExercises;
@@ -48,50 +48,5 @@ public class StaticExerciseService : IExerciseService
         }
 
         return filtered;
-    }
-
-    private IEnumerable<Exercise> ParseCsv(string csvData)
-    {
-        var exercises = new List<Exercise>();
-        var lines = csvData.Split(new[] { "\r\n", "\r", "\n" }, StringSplitOptions.RemoveEmptyEntries);
-
-        // Skip header
-        foreach (var line in lines.Skip(1))
-        {
-            var parts = ParseCsvLine(line);
-            if (parts.Length < 4) continue;
-
-            exercises.Add(new Exercise(parts[0], parts[1], parts[2], parts[3]));
-        }
-
-        return exercises;
-    }
-
-    private string[] ParseCsvLine(string line)
-    {
-        var result = new List<string>();
-        var current = "";
-        var inQuotes = false;
-
-        for (int i = 0; i < line.Length; i++)
-        {
-            char c = line[i];
-            if (c == '"')
-            {
-                inQuotes = !inQuotes;
-            }
-            else if (c == ',' && !inQuotes)
-            {
-                result.Add(current.Trim('"'));
-                current = "";
-            }
-            else
-            {
-                current += c;
-            }
-        }
-        result.Add(current.Trim('"'));
-
-        return result.ToArray();
     }
 }

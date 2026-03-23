@@ -32,10 +32,14 @@ jobs:
     - name: Build CSS
       working-directory: YayogApp/src/YayogApp
       run: |
+        npm install
         npm run build:css
         # Copy to client wwwroot for publish
-        mkdir -p ../YayogApp.Client/wwwroot
+        mkdir -p ../YayogApp.Client/wwwroot/data
         cp wwwroot/app.css ../YayogApp.Client/wwwroot/app.css
+        cp wwwroot/favicon.png ../YayogApp.Client/wwwroot/favicon.png
+        cp Data/yayog.json ../YayogApp.Client/wwwroot/data/yayog.json
+        cp Data/difficulties.txt ../YayogApp.Client/wwwroot/data/difficulties.txt
 
     - name: Publish app
       run: dotnet publish YayogApp/src/YayogApp.Client/YayogApp.Client.csproj -c Release -o release

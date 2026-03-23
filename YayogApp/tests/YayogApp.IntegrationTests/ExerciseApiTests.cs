@@ -53,10 +53,10 @@ public class ExerciseApiTests : IClassFixture<WebApplicationFactory<Program>>
     }
 
     [Fact]
-    public async Task GetExercises_WithMissingCsv_ReturnsEmpty()
+    public async Task GetExercises_WithMissingJson_ReturnsEmpty()
     {
         // Arrange
-        // Using a dummy content root where Data/yayog.csv doesn't exist
+        // Using a dummy content root where Data/yayog.json doesn't exist
         var emptyDataDir = Path.Combine(Directory.GetCurrentDirectory(), "EmptyData");
         Directory.CreateDirectory(emptyDataDir);
         

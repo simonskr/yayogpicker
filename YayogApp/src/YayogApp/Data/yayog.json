@@ -1,0 +1,1478 @@
+[
+  {
+    "Name": "4-count Bodybuilders",
+    "Variation": "4-count Bodybuilders",
+    "Category": "Whole Body",
+    "Difficulty": "Easy"
+  },
+  {
+    "Name": "8-count Bodybuilders",
+    "Variation": "8-count Bodybuilders",
+    "Category": "Whole Body",
+    "Difficulty": "Moderate"
+  },
+  {
+    "Name": "Advanced Sumo Squat",
+    "Variation": "Advanced Sumo Squat",
+    "Category": "Legs",
+    "Difficulty": "Semi-Hard"
+  },
+  {
+    "Name": "Air Plunges",
+    "Variation": "Air Plunges",
+    "Category": "Legs",
+    "Difficulty": "Semi-Hard"
+  },
+  {
+    "Name": "Arm Rotations",
+    "Variation": "Arm Rotations",
+    "Category": "Push",
+    "Difficulty": "Easier"
+  },
+  {
+    "Name": "Back Lunges",
+    "Variation": "Hands behind head",
+    "Category": "Legs",
+    "Difficulty": "Moderate"
+  },
+  {
+    "Name": "Back Lunges",
+    "Variation": "Hands overhead",
+    "Category": "Legs",
+    "Difficulty": "Semi-Hard"
+  },
+  {
+    "Name": "Back Lunges",
+    "Variation": "With weighted shoulder press",
+    "Category": "Legs",
+    "Difficulty": "Harder"
+  },
+  {
+    "Name": "Bam Bams",
+    "Variation": "Bam Bams",
+    "Category": "Core",
+    "Difficulty": "Moderate"
+  },
+  {
+    "Name": "Basketball Push-ups",
+    "Variation": "Knees on ground",
+    "Category": "Push",
+    "Difficulty": "Semi-Easy"
+  },
+  {
+    "Name": "Basketball Push-ups",
+    "Variation": "Knees off ground",
+    "Category": "Push",
+    "Difficulty": "Moderate"
+  },
+  {
+    "Name": "Basketball Push-ups",
+    "Variation": "Both hands on one ball",
+    "Category": "Push",
+    "Difficulty": "Moderate"
+  },
+  {
+    "Name": "Basketball Push-ups",
+    "Variation": "Feet elevated",
+    "Category": "Push",
+    "Difficulty": "Semi-Hard"
+  },
+  {
+    "Name": "Basketball Push-ups",
+    "Variation": "Feet elevated, hands on one ball",
+    "Category": "Push",
+    "Difficulty": "Semi-Hard"
+  },
+  {
+    "Name": "Beach Scissors",
+    "Variation": "Lying on side",
+    "Category": "Core",
+    "Difficulty": "Easier"
+  },
+  {
+    "Name": "Beach Scissors",
+    "Variation": "Propped on forearem",
+    "Category": "Core",
+    "Difficulty": "Semi-Easy"
+  },
+  {
+    "Name": "Bear Walk",
+    "Variation": "Bear Walk",
+    "Category": "Whole Body",
+    "Difficulty": "Moderate"
+  },
+  {
+    "Name": "Beat Your Boots",
+    "Variation": "Beat Your Boots",
+    "Category": "Legs",
+    "Difficulty": "Semi-Hard"
+  },
+  {
+    "Name": "Bent-over Lateral Raises",
+    "Variation": "Empty hands",
+    "Category": "Pull",
+    "Difficulty": "Easier"
+  },
+  {
+    "Name": "Bent-over Lateral Raises",
+    "Variation": "Holding light objects",
+    "Category": "Pull",
+    "Difficulty": "Easy"
+  },
+  {
+    "Name": "Bicycles",
+    "Variation": "Bicycles",
+    "Category": "Core",
+    "Difficulty": "Semi-Easy"
+  },
+  {
+    "Name": "Bouncing Push-ups",
+    "Variation": "Hands hip height",
+    "Category": "Push",
+    "Difficulty": "Semi-Easy"
+  },
+  {
+    "Name": "Bouncing Push-ups",
+    "Variation": "Hands knee height",
+    "Category": "Push",
+    "Difficulty": "Moderate"
+  },
+  {
+    "Name": "Bouncing Push-ups",
+    "Variation": "Hands on ground",
+    "Category": "Push",
+    "Difficulty": "Semi-Hard"
+  },
+  {
+    "Name": "Bouncing Push-ups",
+    "Variation": "Feet elevated",
+    "Category": "Push",
+    "Difficulty": "Harder"
+  },
+  {
+    "Name": "Box Jumps",
+    "Variation": "Straight jump",
+    "Category": "Legs",
+    "Difficulty": "Semi-Hard"
+  },
+  {
+    "Name": "Box Jumps",
+    "Variation": "Twisting jump",
+    "Category": "Legs",
+    "Difficulty": "Hard"
+  },
+  {
+    "Name": "Bulgarian Split Squats",
+    "Variation": "Hands behind head",
+    "Category": "Legs",
+    "Difficulty": "Moderate"
+  },
+  {
+    "Name": "Bulgarian Split Squats",
+    "Variation": "Hands overhead",
+    "Category": "Legs",
+    "Difficulty": "Semi-Hard"
+  },
+  {
+    "Name": "Bulgarian Split Squats",
+    "Variation": "Jumping",
+    "Category": "Legs",
+    "Difficulty": "Hard"
+  },
+  {
+    "Name": "Bulgarian Split Squats",
+    "Variation": "With weighted shoulder press",
+    "Category": "Legs",
+    "Difficulty": "Harder"
+  },
+  {
+    "Name": "Burpees",
+    "Variation": "No Push-Ups",
+    "Category": "Whole Body",
+    "Difficulty": "Moderate"
+  },
+  {
+    "Name": "Burpees",
+    "Variation": "With Push-Ups",
+    "Category": "Whole Body",
+    "Difficulty": "Semi-Hard"
+  },
+  {
+    "Name": "Calf Raises",
+    "Variation": "Both legs",
+    "Category": "Legs",
+    "Difficulty": "Easy"
+  },
+  {
+    "Name": "Calf Raises",
+    "Variation": "One leg",
+    "Category": "Legs",
+    "Difficulty": "Moderate"
+  },
+  {
+    "Name": "Chinese Push-ups",
+    "Variation": "Hands hip height",
+    "Category": "Push",
+    "Difficulty": "Moderate"
+  },
+  {
+    "Name": "Chinese Push-ups",
+    "Variation": "Hands knee height",
+    "Category": "Push",
+    "Difficulty": "Semi-Hard"
+  },
+  {
+    "Name": "Chinese Push-ups",
+    "Variation": "Hands on ground",
+    "Category": "Push",
+    "Difficulty": "Hard"
+  },
+  {
+    "Name": "Chinese Push-ups",
+    "Variation": "Feet elevated",
+    "Category": "Push",
+    "Difficulty": "Harder"
+  },
+  {
+    "Name": "Chin-ups",
+    "Variation": "Chin-ups",
+    "Category": "Pull",
+    "Difficulty": "Hard"
+  },
+  {
+    "Name": "Classic Push-ups",
+    "Variation": "Hands sternum height",
+    "Category": "Push",
+    "Difficulty": "Easier"
+  },
+  {
+    "Name": "Classic Push-ups",
+    "Variation": "Hands hip height",
+    "Category": "Push",
+    "Difficulty": "Easy"
+  },
+  {
+    "Name": "Classic Push-ups",
+    "Variation": "Hands knee height",
+    "Category": "Push",
+    "Difficulty": "Semi-Easy"
+  },
+  {
+    "Name": "Classic Push-ups",
+    "Variation": "Hands on ground",
+    "Category": "Push",
+    "Difficulty": "Moderate"
+  },
+  {
+    "Name": "Classic Push-ups",
+    "Variation": "Feet elevated",
+    "Category": "Push",
+    "Difficulty": "Semi-Hard"
+  },
+  {
+    "Name": "Close Grip Push-ups",
+    "Variation": "Hands hip height",
+    "Category": "Push",
+    "Difficulty": "Semi-Easy"
+  },
+  {
+    "Name": "Close Grip Push-ups",
+    "Variation": "Hands knee height",
+    "Category": "Push",
+    "Difficulty": "Moderate"
+  },
+  {
+    "Name": "Close Grip Push-ups",
+    "Variation": "Hands on ground",
+    "Category": "Push",
+    "Difficulty": "Semi-Hard"
+  },
+  {
+    "Name": "Close Grip Push-ups",
+    "Variation": "Feet elevated",
+    "Category": "Push",
+    "Difficulty": "Hard"
+  },
+  {
+    "Name": "Crab Walk",
+    "Variation": "Crab Walk",
+    "Category": "Whole Body",
+    "Difficulty": "Semi-Hard"
+  },
+  {
+    "Name": "Crunches",
+    "Variation": "Crunches",
+    "Category": "Core",
+    "Difficulty": "Easy"
+  },
+  {
+    "Name": "Crunch-it-ups",
+    "Variation": "Crunch-it-ups",
+    "Category": "Core",
+    "Difficulty": "Semi-Easy"
+  },
+  {
+    "Name": "Curls",
+    "Variation": "Two-handed",
+    "Category": "Pull",
+    "Difficulty": "Easier"
+  },
+  {
+    "Name": "Curls",
+    "Variation": "One-handed",
+    "Category": "Pull",
+    "Difficulty": "Easier"
+  },
+  {
+    "Name": "Curls",
+    "Variation": "One-arm reverse grip",
+    "Category": "Pull",
+    "Difficulty": "Easier"
+  },
+  {
+    "Name": "Curls-ups",
+    "Variation": "Curls-ups",
+    "Category": "Core",
+    "Difficulty": "Hard"
+  },
+  {
+    "Name": "Deep Push-ups",
+    "Variation": "Hands knee height",
+    "Category": "Push",
+    "Difficulty": "Semi-Easy"
+  },
+  {
+    "Name": "Deep Push-ups",
+    "Variation": "Low surfaces",
+    "Category": "Push",
+    "Difficulty": "Moderate"
+  },
+  {
+    "Name": "Deep Push-ups",
+    "Variation": "Feet elevated",
+    "Category": "Push",
+    "Difficulty": "Semi-Hard"
+  },
+  {
+    "Name": "Dips",
+    "Variation": "Assisted",
+    "Category": "Push",
+    "Difficulty": "Semi-Easy"
+  },
+  {
+    "Name": "Dips",
+    "Variation": "Unassisted negative",
+    "Category": "Push",
+    "Difficulty": "Moderate"
+  },
+  {
+    "Name": "Dips",
+    "Variation": "Unassisted",
+    "Category": "Push",
+    "Difficulty": "Semi-Hard"
+  },
+  {
+    "Name": "Dirty Dogs",
+    "Variation": "Dirty Dogs",
+    "Category": "Legs",
+    "Difficulty": "Easy"
+  },
+  {
+    "Name": "Dive Bombers",
+    "Variation": "Without reversal",
+    "Category": "Push",
+    "Difficulty": "Moderate"
+  },
+  {
+    "Name": "Dive Bombers",
+    "Variation": "With reversal",
+    "Category": "Push",
+    "Difficulty": "Semi-Hard"
+  },
+  {
+    "Name": "Dive Bombers",
+    "Variation": "Pausing on the way down",
+    "Category": "Push",
+    "Difficulty": "Hard"
+  },
+  {
+    "Name": "Dive Bombers",
+    "Variation": "Pausing on the way up",
+    "Category": "Push",
+    "Difficulty": "Harder"
+  },
+  {
+    "Name": "Donkey Calf Raises",
+    "Variation": "Both legs",
+    "Category": "Legs",
+    "Difficulty": "Easier"
+  },
+  {
+    "Name": "Donkey Calf Raises",
+    "Variation": "One leg",
+    "Category": "Legs",
+    "Difficulty": "Semi-Easy"
+  },
+  {
+    "Name": "Donkey Calf Raises",
+    "Variation": "With partner",
+    "Category": "Legs",
+    "Difficulty": "Semi-Hard"
+  },
+  {
+    "Name": "Dynamic Squats",
+    "Variation": "No twist",
+    "Category": "Legs",
+    "Difficulty": "Semi-Easy"
+  },
+  {
+    "Name": "Dynamic Squats",
+    "Variation": "With twist",
+    "Category": "Legs",
+    "Difficulty": "Semi-Hard"
+  },
+  {
+    "Name": "Flags",
+    "Variation": "Legs bent",
+    "Category": "Core",
+    "Difficulty": "Moderate"
+  },
+  {
+    "Name": "Flags",
+    "Variation": "Static",
+    "Category": "Core",
+    "Difficulty": "Hardest"
+  },
+  {
+    "Name": "Flags",
+    "Variation": "For reps",
+    "Category": "Core",
+    "Difficulty": "Hardest"
+  },
+  {
+    "Name": "Flutter Kicks",
+    "Variation": "Hands under butt",
+    "Category": "Core",
+    "Difficulty": "Semi-Easy"
+  },
+  {
+    "Name": "Flutter Kicks",
+    "Variation": "Hands on stomach",
+    "Category": "Core",
+    "Difficulty": "Semi-Hard"
+  },
+  {
+    "Name": "Good Mornings",
+    "Variation": "Good Mornings",
+    "Category": "Legs",
+    "Difficulty": "Easy"
+  },
+  {
+    "Name": "Half Dive Bombers",
+    "Variation": "Hands hip height",
+    "Category": "Push",
+    "Difficulty": "Semi-Easy"
+  },
+  {
+    "Name": "Half Dive Bombers",
+    "Variation": "Hands knee height",
+    "Category": "Push",
+    "Difficulty": "Moderate"
+  },
+  {
+    "Name": "Half Dive Bombers",
+    "Variation": "Hands on ground",
+    "Category": "Push",
+    "Difficulty": "Semi-Hard"
+  },
+  {
+    "Name": "Half Dive Bombers",
+    "Variation": "Feet elevated",
+    "Category": "Push",
+    "Difficulty": "Hard"
+  },
+  {
+    "Name": "Half Dive Bombers",
+    "Variation": "Feet pressed against wall",
+    "Category": "Push",
+    "Difficulty": "Harder"
+  },
+  {
+    "Name": "Ham Sandwich",
+    "Variation": "Ham Sandwich",
+    "Category": "Core",
+    "Difficulty": "Hard"
+  },
+  {
+    "Name": "Handstand Push-ups",
+    "Variation": "With wall",
+    "Category": "Push",
+    "Difficulty": "Harder"
+  },
+  {
+    "Name": "Handstand Push-ups",
+    "Variation": "Static one arm",
+    "Category": "Push",
+    "Difficulty": "Very Hard"
+  },
+  {
+    "Name": "Handstand Push-ups",
+    "Variation": "Unassisted",
+    "Category": "Push",
+    "Difficulty": "Hardest"
+  },
+  {
+    "Name": "Hanging Leg Lifts",
+    "Variation": "Knees bent",
+    "Category": "Core",
+    "Difficulty": "Semi-Easy"
+  },
+  {
+    "Name": "Hanging Leg Lifts",
+    "Variation": "Legs straight",
+    "Category": "Core",
+    "Difficulty": "Semi-Hard"
+  },
+  {
+    "Name": "Hanging Leg Lifts",
+    "Variation": "Feet close to hands",
+    "Category": "Core",
+    "Difficulty": "Harder"
+  },
+  {
+    "Name": "Hello Darlings",
+    "Variation": "Hands under butt",
+    "Category": "Core",
+    "Difficulty": "Semi-Easy"
+  },
+  {
+    "Name": "Hello Darlings",
+    "Variation": "Hands on stomach",
+    "Category": "Core",
+    "Difficulty": "Semi-Hard"
+  },
+  {
+    "Name": "Hip Extensions",
+    "Variation": "Two-legged",
+    "Category": "Legs",
+    "Difficulty": "Moderate"
+  },
+  {
+    "Name": "Hip Extensions",
+    "Variation": "One-legged",
+    "Category": "Legs",
+    "Difficulty": "Hard"
+  },
+  {
+    "Name": "Hip Raiser",
+    "Variation": "Two-legged",
+    "Category": "Legs",
+    "Difficulty": "Moderate"
+  },
+  {
+    "Name": "Hip Raiser",
+    "Variation": "One-legged",
+    "Category": "Legs",
+    "Difficulty": "Hard"
+  },
+  {
+    "Name": "Hip Ups",
+    "Variation": "Propped on forearem",
+    "Category": "Core",
+    "Difficulty": "Semi-Easy"
+  },
+  {
+    "Name": "Hip Ups",
+    "Variation": "Propped on hand",
+    "Category": "Core",
+    "Difficulty": "Semi-Hard"
+  },
+  {
+    "Name": "Hyperextensions",
+    "Variation": "Hands at side",
+    "Category": "Core",
+    "Difficulty": "Easier"
+  },
+  {
+    "Name": "Hyperextensions",
+    "Variation": "Hands under chin",
+    "Category": "Core",
+    "Difficulty": "Semi-Easy"
+  },
+  {
+    "Name": "In Line Push-ups",
+    "Variation": "On knees",
+    "Category": "Push",
+    "Difficulty": "Moderate"
+  },
+  {
+    "Name": "In Line Push-ups",
+    "Variation": "Knees off ground",
+    "Category": "Push",
+    "Difficulty": "Hard"
+  },
+  {
+    "Name": "In Line Push-ups",
+    "Variation": "Feet elevated",
+    "Category": "Push",
+    "Difficulty": "Harder"
+  },
+  {
+    "Name": "Inverse Push-ups",
+    "Variation": "Static",
+    "Category": "Push",
+    "Difficulty": "Semi-Hard"
+  },
+  {
+    "Name": "Inverse Push-ups",
+    "Variation": "For reps",
+    "Category": "Push",
+    "Difficulty": "Hard"
+  },
+  {
+    "Name": "Iron Crosses",
+    "Variation": "Knees bent",
+    "Category": "Core",
+    "Difficulty": "Moderate"
+  },
+  {
+    "Name": "Iron Crosses",
+    "Variation": "Legs straight",
+    "Category": "Core",
+    "Difficulty": "Hard"
+  },
+  {
+    "Name": "Iron Mikes",
+    "Variation": "Iron Mikes",
+    "Category": "Legs",
+    "Difficulty": "Hard"
+  },
+  {
+    "Name": "Jack Knives",
+    "Variation": "Arms overhead",
+    "Category": "Core",
+    "Difficulty": "Hard"
+  },
+  {
+    "Name": "Jack Knives",
+    "Variation": "Arms at side",
+    "Category": "Core",
+    "Difficulty": "Harder"
+  },
+  {
+    "Name": "King of the Klutz",
+    "Variation": "On the ball of one foot",
+    "Category": "Legs",
+    "Difficulty": "Moderate"
+  },
+  {
+    "Name": "King of the Klutz",
+    "Variation": "Flat footed",
+    "Category": "Legs",
+    "Difficulty": "Semi-Hard"
+  },
+  {
+    "Name": "Ledge Curls",
+    "Variation": "Ledge Curls",
+    "Category": "Pull",
+    "Difficulty": "Moderate"
+  },
+  {
+    "Name": "Leg Lifts",
+    "Variation": "Hands under butt",
+    "Category": "Core",
+    "Difficulty": "Semi-Easy"
+  },
+  {
+    "Name": "Leg Lifts",
+    "Variation": "Hands on stomach",
+    "Category": "Core",
+    "Difficulty": "Semi-Hard"
+  },
+  {
+    "Name": "Leg Switch Pistols",
+    "Variation": "No jump",
+    "Category": "Legs",
+    "Difficulty": "Hardest"
+  },
+  {
+    "Name": "Leg Switch Pistols",
+    "Variation": "With jump",
+    "Category": "Legs",
+    "Difficulty": "Hardest"
+  },
+  {
+    "Name": "Let Me Ins",
+    "Variation": "Knees slightly bent with underhand grip",
+    "Category": "Pull",
+    "Difficulty": "Easy"
+  },
+  {
+    "Name": "Let Me Ins",
+    "Variation": "Knees slightly bent",
+    "Category": "Pull",
+    "Difficulty": "Easy"
+  },
+  {
+    "Name": "Let Me Ins",
+    "Variation": "Knees bent 90 degrees",
+    "Category": "Pull",
+    "Difficulty": "Semi-Easy"
+  },
+  {
+    "Name": "Let Me Ins",
+    "Variation": "Knees bent 90 degrees with underhand grip",
+    "Category": "Pull",
+    "Difficulty": "Semi-Easy"
+  },
+  {
+    "Name": "Let Me Ups",
+    "Variation": "Knees bent 90 degrees with underhand grip",
+    "Category": "Pull",
+    "Difficulty": "Moderate"
+  },
+  {
+    "Name": "Let Me Ups",
+    "Variation": "Knees bent 90 degrees with overhand grip",
+    "Category": "Pull",
+    "Difficulty": "Moderate"
+  },
+  {
+    "Name": "Let Me Ups",
+    "Variation": "Knees slightly bent with overhand grip",
+    "Category": "Pull",
+    "Difficulty": "Semi-Hard"
+  },
+  {
+    "Name": "Let Me Ups",
+    "Variation": "Knees slightly bent with underhand grip",
+    "Category": "Pull",
+    "Difficulty": "Semi-Hard"
+  },
+  {
+    "Name": "Let Me Ups",
+    "Variation": "Legs straight with overhand grip",
+    "Category": "Pull",
+    "Difficulty": "Hard"
+  },
+  {
+    "Name": "Let Me Ups",
+    "Variation": "Legs straight with underhand grip",
+    "Category": "Pull",
+    "Difficulty": "Hard"
+  },
+  {
+    "Name": "Let Me Ups",
+    "Variation": "Palms Facing",
+    "Category": "Pull",
+    "Difficulty": "Hard"
+  },
+  {
+    "Name": "Let Me Ups",
+    "Variation": "Legs elevated with overhand grip",
+    "Category": "Pull",
+    "Difficulty": "Harder"
+  },
+  {
+    "Name": "Let Me Ups",
+    "Variation": "Legs elevated with underhand grip",
+    "Category": "Pull",
+    "Difficulty": "Harder"
+  },
+  {
+    "Name": "Let Me Ups",
+    "Variation": "Legs elevated, 1 leg raised, underhand grip",
+    "Category": "Pull",
+    "Difficulty": "Very Hard"
+  },
+  {
+    "Name": "Let Me Ups",
+    "Variation": "Legs elevated, 1 leg raised, overhand grip",
+    "Category": "Pull",
+    "Difficulty": "Very Hard"
+  },
+  {
+    "Name": "Lunges",
+    "Variation": "Hands behind head",
+    "Category": "Legs",
+    "Difficulty": "Moderate"
+  },
+  {
+    "Name": "Lunges",
+    "Variation": "Arms extended overhead",
+    "Category": "Legs",
+    "Difficulty": "Semi-Hard"
+  },
+  {
+    "Name": "Lunges",
+    "Variation": "Weighted overhead backpack press",
+    "Category": "Legs",
+    "Difficulty": "Hard"
+  },
+  {
+    "Name": "Marching In Place",
+    "Variation": "Marching In Place",
+    "Category": "Legs",
+    "Difficulty": "Easier"
+  },
+  {
+    "Name": "Military Press",
+    "Variation": "Hands hip height",
+    "Category": "Push",
+    "Difficulty": "Semi-Easy"
+  },
+  {
+    "Name": "Military Press",
+    "Variation": "Hands knee height",
+    "Category": "Push",
+    "Difficulty": "Moderate"
+  },
+  {
+    "Name": "Military Press",
+    "Variation": "Hands on ground",
+    "Category": "Push",
+    "Difficulty": "Semi-Hard"
+  },
+  {
+    "Name": "Military Press",
+    "Variation": "Feet elevated",
+    "Category": "Push",
+    "Difficulty": "Hard"
+  },
+  {
+    "Name": "Military Press",
+    "Variation": "Feet pressed against wall",
+    "Category": "Push",
+    "Difficulty": "Harder"
+  },
+  {
+    "Name": "Monkey Push-ups",
+    "Variation": "Monkey Push-ups",
+    "Category": "Push",
+    "Difficulty": "Hard"
+  },
+  {
+    "Name": "Mountain Climbers",
+    "Variation": "Knees to chest",
+    "Category": "Whole Body",
+    "Difficulty": "Semi-Easy"
+  },
+  {
+    "Name": "Mountain Climbers",
+    "Variation": "Elbows to opposite knee",
+    "Category": "Whole Body",
+    "Difficulty": "Moderate"
+  },
+  {
+    "Name": "Mountain Climbers",
+    "Variation": "Knees to shoulders",
+    "Category": "Whole Body",
+    "Difficulty": "Semi-Hard"
+  },
+  {
+    "Name": "One-arm Let Me Ins",
+    "Variation": "Knees slightly bend with underhand grip",
+    "Category": "Pull",
+    "Difficulty": "Semi-Hard"
+  },
+  {
+    "Name": "One-arm Let Me Ins",
+    "Variation": "Knees slightly bent",
+    "Category": "Pull",
+    "Difficulty": "Semi-Hard"
+  },
+  {
+    "Name": "One-arm Let Me Ins",
+    "Variation": "Knees bent 90 degrees with underhand grip",
+    "Category": "Pull",
+    "Difficulty": "Hard"
+  },
+  {
+    "Name": "One-arm Let Me Ins",
+    "Variation": "Knees bent 90 degrees",
+    "Category": "Pull",
+    "Difficulty": "Hard"
+  },
+  {
+    "Name": "One-arm Push-ups",
+    "Variation": "Hands hip height",
+    "Category": "Push",
+    "Difficulty": "Hard"
+  },
+  {
+    "Name": "One-arm Push-ups",
+    "Variation": "Hands knee height",
+    "Category": "Push",
+    "Difficulty": "Harder"
+  },
+  {
+    "Name": "One-arm Push-ups",
+    "Variation": "Hands on ground",
+    "Category": "Push",
+    "Difficulty": "Very Hard"
+  },
+  {
+    "Name": "One-arm Push-ups",
+    "Variation": "Feet elevated",
+    "Category": "Push",
+    "Difficulty": "Hardest"
+  },
+  {
+    "Name": "One-legged Romanian Deadlifts",
+    "Variation": "One-legged Romanian Deadlifts",
+    "Category": "Legs",
+    "Difficulty": "Moderate"
+  },
+  {
+    "Name": "One-legged Squat Jumps",
+    "Variation": "One-legged Squat Jumps",
+    "Category": "Legs",
+    "Difficulty": "Very Hard"
+  },
+  {
+    "Name": "One-legged Squats",
+    "Variation": "Assisted",
+    "Category": "Legs",
+    "Difficulty": "Moderate"
+  },
+  {
+    "Name": "One-legged Squats",
+    "Variation": "Sitting onto knee height surface",
+    "Category": "Legs",
+    "Difficulty": "Semi-Hard"
+  },
+  {
+    "Name": "One-legged Squats",
+    "Variation": "Unassisted",
+    "Category": "Legs",
+    "Difficulty": "Hard"
+  },
+  {
+    "Name": "One-legged Warriors",
+    "Variation": "Arms overhead",
+    "Category": "Legs",
+    "Difficulty": "Semi-Hard"
+  },
+  {
+    "Name": "One-legged Warriors",
+    "Variation": "With weighted object overhead",
+    "Category": "Legs",
+    "Difficulty": "Hard"
+  },
+  {
+    "Name": "Overhead Squats",
+    "Variation": "Overhead Squats",
+    "Category": "Legs",
+    "Difficulty": "Hard"
+  },
+  {
+    "Name": "Pec Crawl",
+    "Variation": "Pec Crawl",
+    "Category": "Push",
+    "Difficulty": "Semi-Hard"
+  },
+  {
+    "Name": "Pec Flies",
+    "Variation": "To the sides, on knees",
+    "Category": "Push",
+    "Difficulty": "Semi-Hard"
+  },
+  {
+    "Name": "Pec Flies",
+    "Variation": "To the front, on knees",
+    "Category": "Push",
+    "Difficulty": "Semi-Hard"
+  },
+  {
+    "Name": "Pec Flies",
+    "Variation": "To the sides",
+    "Category": "Push",
+    "Difficulty": "Harder"
+  },
+  {
+    "Name": "Pec Flies",
+    "Variation": "To the front",
+    "Category": "Push",
+    "Difficulty": "Harder"
+  },
+  {
+    "Name": "Pillow Humpers",
+    "Variation": "Hands underneath chin",
+    "Category": "Core",
+    "Difficulty": "Moderate"
+  },
+  {
+    "Name": "Pillow Humpers",
+    "Variation": "Arms straight in front",
+    "Category": "Core",
+    "Difficulty": "Semi-Hard"
+  },
+  {
+    "Name": "Pillow Humpers",
+    "Variation": "Hands behind head",
+    "Category": "Core",
+    "Difficulty": "Semi-Hard"
+  },
+  {
+    "Name": "Pistol Roll-ups",
+    "Variation": "No jump",
+    "Category": "Legs",
+    "Difficulty": "Harder"
+  },
+  {
+    "Name": "Pistol Roll-ups",
+    "Variation": "Jumping",
+    "Category": "Legs",
+    "Difficulty": "Hardest"
+  },
+  {
+    "Name": "Pistols",
+    "Variation": "Assisted",
+    "Category": "Legs",
+    "Difficulty": "Hard"
+  },
+  {
+    "Name": "Pistols",
+    "Variation": "Unassisted",
+    "Category": "Legs",
+    "Difficulty": "Harder"
+  },
+  {
+    "Name": "Pistols",
+    "Variation": "Jumping",
+    "Category": "Legs",
+    "Difficulty": "Hardest"
+  },
+  {
+    "Name": "Pistols",
+    "Variation": "Weighted",
+    "Category": "Legs",
+    "Difficulty": "Hardest"
+  },
+  {
+    "Name": "Plank",
+    "Variation": "On forearms",
+    "Category": "Core",
+    "Difficulty": "Semi-Easy"
+  },
+  {
+    "Name": "Plank",
+    "Variation": "Push-Up position",
+    "Category": "Core",
+    "Difficulty": "Semi-Easy"
+  },
+  {
+    "Name": "Platform Pistols",
+    "Variation": "Platform Pistols",
+    "Category": "Legs",
+    "Difficulty": "Very Hard"
+  },
+  {
+    "Name": "Pointers",
+    "Variation": "With knee on ground",
+    "Category": "Core",
+    "Difficulty": "Semi-Easy"
+  },
+  {
+    "Name": "Pointers",
+    "Variation": "From Push-up position",
+    "Category": "Core",
+    "Difficulty": "Harder"
+  },
+  {
+    "Name": "Prisoner Get Ups",
+    "Variation": "Prisoner Get Ups",
+    "Category": "Whole Body",
+    "Difficulty": "Moderate"
+  },
+  {
+    "Name": "Pull Ups",
+    "Variation": "Assisted",
+    "Category": "Pull",
+    "Difficulty": "Semi-Easy"
+  },
+  {
+    "Name": "Pull Ups",
+    "Variation": "Unassisted negative",
+    "Category": "Pull",
+    "Difficulty": "Moderate"
+  },
+  {
+    "Name": "Pull Ups",
+    "Variation": "Unassisted slow negative",
+    "Category": "Pull",
+    "Difficulty": "Semi-Hard"
+  },
+  {
+    "Name": "Pull Ups",
+    "Variation": "Unassisted",
+    "Category": "Pull",
+    "Difficulty": "Hard"
+  },
+  {
+    "Name": "Pull Ups",
+    "Variation": "Close grip",
+    "Category": "Pull",
+    "Difficulty": "Harder"
+  },
+  {
+    "Name": "Pull Ups",
+    "Variation": "Wide grip",
+    "Category": "Pull",
+    "Difficulty": "Harder"
+  },
+  {
+    "Name": "Pull Ups",
+    "Variation": "High pull",
+    "Category": "Pull",
+    "Difficulty": "Very Hard"
+  },
+  {
+    "Name": "Pull Ups",
+    "Variation": "Weighted",
+    "Category": "Pull",
+    "Difficulty": "Hardest"
+  },
+  {
+    "Name": "Pull Ups",
+    "Variation": "Triangle",
+    "Category": "Pull",
+    "Difficulty": "Hardest"
+  },
+  {
+    "Name": "Rocking Chairs",
+    "Variation": "Arms extended",
+    "Category": "Core",
+    "Difficulty": "Moderate"
+  },
+  {
+    "Name": "Rocking Chairs",
+    "Variation": "Arms bent 90 degrees",
+    "Category": "Core",
+    "Difficulty": "Hard"
+  },
+  {
+    "Name": "Russian Twists",
+    "Variation": "Russian Twists",
+    "Category": "Core",
+    "Difficulty": "Semi-Easy"
+  },
+  {
+    "Name": "Seated Dips",
+    "Variation": "Knees bent",
+    "Category": "Push",
+    "Difficulty": "Semi-Easy"
+  },
+  {
+    "Name": "Seated Dips",
+    "Variation": "Legs straight",
+    "Category": "Push",
+    "Difficulty": "Moderate"
+  },
+  {
+    "Name": "Seated Dips",
+    "Variation": "Feet elevated",
+    "Category": "Push",
+    "Difficulty": "Semi-Hard"
+  },
+  {
+    "Name": "Semi-Planche Push-ups",
+    "Variation": "Hands hip height",
+    "Category": "Push",
+    "Difficulty": "Semi-Easy"
+  },
+  {
+    "Name": "Semi-Planche Push-ups",
+    "Variation": "Hands knee height",
+    "Category": "Push",
+    "Difficulty": "Semi-Hard"
+  },
+  {
+    "Name": "Semi-Planche Push-ups",
+    "Variation": "Hands at ribs",
+    "Category": "Push",
+    "Difficulty": "Hard"
+  },
+  {
+    "Name": "Semi-Planche Push-ups",
+    "Variation": "Hands at hips",
+    "Category": "Push",
+    "Difficulty": "Very Hard"
+  },
+  {
+    "Name": "Shoot Throughs",
+    "Variation": "Shoot Throughs",
+    "Category": "Whole Body",
+    "Difficulty": "Semi-Hard"
+  },
+  {
+    "Name": "Shoulder Drop Push-ups",
+    "Variation": "Hands hip height",
+    "Category": "Push",
+    "Difficulty": "Semi-Easy"
+  },
+  {
+    "Name": "Shoulder Drop Push-ups",
+    "Variation": "Hands knee height",
+    "Category": "Push",
+    "Difficulty": "Moderate"
+  },
+  {
+    "Name": "Shoulder Drop Push-ups",
+    "Variation": "Hands on ground",
+    "Category": "Push",
+    "Difficulty": "Hard"
+  },
+  {
+    "Name": "Shoulder Drop Push-ups",
+    "Variation": "Feet elevated",
+    "Category": "Push",
+    "Difficulty": "Harder"
+  },
+  {
+    "Name": "Shove Offs",
+    "Variation": "Hands hip height",
+    "Category": "Push",
+    "Difficulty": "Moderate"
+  },
+  {
+    "Name": "Shove Offs",
+    "Variation": "Hands knee height",
+    "Category": "Push",
+    "Difficulty": "Harder"
+  },
+  {
+    "Name": "Side Jumps",
+    "Variation": "Side Jumps",
+    "Category": "Legs",
+    "Difficulty": "Moderate"
+  },
+  {
+    "Name": "Side Lunges",
+    "Variation": "Side Lunges",
+    "Category": "Legs",
+    "Difficulty": "Moderate"
+  },
+  {
+    "Name": "Side Triceps Extensions",
+    "Variation": "Side Triceps Extensions",
+    "Category": "Push",
+    "Difficulty": "Semi-Hard"
+  },
+  {
+    "Name": "Side V-ups",
+    "Variation": "Knees bent",
+    "Category": "Core",
+    "Difficulty": "Semi-Hard"
+  },
+  {
+    "Name": "Side V-ups",
+    "Variation": "Legs straight",
+    "Category": "Core",
+    "Difficulty": "Hard"
+  },
+  {
+    "Name": "Sissy Squats",
+    "Variation": "Sissy Squats",
+    "Category": "Legs",
+    "Difficulty": "Hard"
+  },
+  {
+    "Name": "Spiderman's",
+    "Variation": "Arms straight in front",
+    "Category": "Core",
+    "Difficulty": "Hardest"
+  },
+  {
+    "Name": "Spiderman's",
+    "Variation": "Arms perpendicular to body",
+    "Category": "Core",
+    "Difficulty": "Hardest"
+  },
+  {
+    "Name": "Squats",
+    "Variation": "Slow",
+    "Category": "Legs",
+    "Difficulty": "Easy"
+  },
+  {
+    "Name": "Squats",
+    "Variation": "Speed",
+    "Category": "Legs",
+    "Difficulty": "Semi-Easy"
+  },
+  {
+    "Name": "Staggered Hands Push-ups",
+    "Variation": "On knees",
+    "Category": "Push",
+    "Difficulty": "Moderate"
+  },
+  {
+    "Name": "Staggered Hands Push-ups",
+    "Variation": "Feet elevated",
+    "Category": "Push",
+    "Difficulty": "Moderate"
+  },
+  {
+    "Name": "Staggered Hands Push-ups",
+    "Variation": "Knees off ground",
+    "Category": "Push",
+    "Difficulty": "Semi-Hard"
+  },
+  {
+    "Name": "Standing Knee Raises",
+    "Variation": "Standing Knee Raises",
+    "Category": "Core",
+    "Difficulty": "Easier"
+  },
+  {
+    "Name": "Star Jumpers",
+    "Variation": "Star Jumpers",
+    "Category": "Whole Body",
+    "Difficulty": "Hard"
+  },
+  {
+    "Name": "Straddle Planche Push-ups",
+    "Variation": "Straddle Planche Push-ups",
+    "Category": "Push",
+    "Difficulty": "Hardest"
+  },
+  {
+    "Name": "Sumo Squats",
+    "Variation": "Sumo Squats",
+    "Category": "Legs",
+    "Difficulty": "Easy"
+  },
+  {
+    "Name": "Supermans",
+    "Variation": "Supermans",
+    "Category": "Core",
+    "Difficulty": "Moderate"
+  },
+  {
+    "Name": "Surface Triceps Extensions",
+    "Variation": "Hands sternum height",
+    "Category": "Push",
+    "Difficulty": "Moderate"
+  },
+  {
+    "Name": "Surface Triceps Extensions",
+    "Variation": "Hands on ground",
+    "Category": "Push",
+    "Difficulty": "Hard"
+  },
+  {
+    "Name": "Surface Triceps Extensions",
+    "Variation": "Hands hip height",
+    "Category": "Push",
+    "Difficulty": "Harder"
+  },
+  {
+    "Name": "Surface Triceps Extensions",
+    "Variation": "Hands knee height",
+    "Category": "Push",
+    "Difficulty": "Hardest"
+  },
+  {
+    "Name": "Swimmers",
+    "Variation": "Slow",
+    "Category": "Core",
+    "Difficulty": "Easy"
+  },
+  {
+    "Name": "Swimmers",
+    "Variation": "Fast",
+    "Category": "Core",
+    "Difficulty": "Semi-Hard"
+  },
+  {
+    "Name": "Thumbs Up",
+    "Variation": "Thumbs Up",
+    "Category": "Push",
+    "Difficulty": "Easy"
+  },
+  {
+    "Name": "Towel Curls",
+    "Variation": "Towel Curls",
+    "Category": "Pull",
+    "Difficulty": "Semi-Hard"
+  },
+  {
+    "Name": "Toyotas",
+    "Variation": "Toyotas",
+    "Category": "Legs",
+    "Difficulty": "Semi-Hard"
+  },
+  {
+    "Name": "V-ups",
+    "Variation": "V-ups",
+    "Category": "Core",
+    "Difficulty": "Semi-Hard"
+  },
+  {
+    "Name": "Wall Squats",
+    "Variation": "Both legs",
+    "Category": "Legs",
+    "Difficulty": "Semi-Easy"
+  },
+  {
+    "Name": "Wall Squats",
+    "Variation": "On leg elevated",
+    "Category": "Legs",
+    "Difficulty": "Semi-Hard"
+  },
+  {
+    "Name": "Warriors",
+    "Variation": "Warriors",
+    "Category": "Legs",
+    "Difficulty": "Semi-Easy"
+  },
+  {
+    "Name": "Wide Grip Push-ups",
+    "Variation": "Hands knee height",
+    "Category": "Push",
+    "Difficulty": "Semi-Easy"
+  },
+  {
+    "Name": "Wide Grip Push-ups",
+    "Variation": "Hands on ground",
+    "Category": "Push",
+    "Difficulty": "Moderate"
+  },
+  {
+    "Name": "Wide Grip Push-ups",
+    "Variation": "Hands hip height",
+    "Category": "Push",
+    "Difficulty": "Semi-Hard"
+  },
+  {
+    "Name": "Wide Grip Push-ups",
+    "Variation": "Feet elevated",
+    "Category": "Push",
+    "Difficulty": "Hard"
+  },
+  {
+    "Name": "Yes & No's",
+    "Variation": "Yes's",
+    "Category": "Core",
+    "Difficulty": "Easy"
+  },
+  {
+    "Name": "Yes & No's",
+    "Variation": "Yes's with resistance",
+    "Category": "Core",
+    "Difficulty": "Easy"
+  },
+  {
+    "Name": "Yes & No's",
+    "Variation": "No's",
+    "Category": "Core",
+    "Difficulty": "Easy"
+  },
+  {
+    "Name": "Yes & No's",
+    "Variation": "Reverse Yes's with resistance",
+    "Category": "Core",
+    "Difficulty": "Semi-Hard"
+  }
+]

@@ -5,6 +5,7 @@
     <Project Path="src/YayogApp/YayogApp.csproj" />
   </Folder>
   <Folder Name="/tests/">
+    <Project Path="tests/YayogApp.E2ETests/YayogApp.E2ETests.csproj" />
     <Project Path="tests/YayogApp.IntegrationTests/YayogApp.IntegrationTests.csproj" />
     <Project Path="tests/YayogApp.UnitTests/YayogApp.UnitTests.csproj" />
   </Folder>
