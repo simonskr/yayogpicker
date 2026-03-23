@@ -32,17 +32,17 @@ jobs:
     - name: Build CSS
       working-directory: YayogApp/src/YayogApp
       run: |
-        npm install
         npm run build:css
-        # Copy to client wwwroot for publish
-        mkdir -p ../YayogApp.Client/wwwroot/data
-        cp wwwroot/app.css ../YayogApp.Client/wwwroot/app.css
-        cp wwwroot/favicon.png ../YayogApp.Client/wwwroot/favicon.png
-        cp Data/yayog.json ../YayogApp.Client/wwwroot/data/yayog.json
-        cp Data/difficulties.txt ../YayogApp.Client/wwwroot/data/difficulties.txt
 
     - name: Publish app
-      run: dotnet publish YayogApp/src/YayogApp.Client/YayogApp.Client.csproj -c Release -o release
+      run: |
+        dotnet publish YayogApp/src/YayogApp.Client/YayogApp.Client.csproj -c Release -o release
+        # Copy assets to published wwwroot
+        mkdir -p release/wwwroot/data
+        cp YayogApp/src/YayogApp/wwwroot/app.css release/wwwroot/app.css
+        cp YayogApp/src/YayogApp/wwwroot/favicon.png release/wwwroot/favicon.png
+        cp YayogApp/src/YayogApp/Data/yayog.json release/wwwroot/data/yayog.json
+        cp YayogApp/src/YayogApp/Data/difficulties.txt release/wwwroot/data/difficulties.txt
 
     - name: Fix base href
       run: |
